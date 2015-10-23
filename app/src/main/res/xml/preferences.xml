@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="@string/setting_select_service_title"
+        android:summary="%s"
+        android:key="streamingService"
+        android:defaultValue="justwatchus"
+        android:entries="@array/streamServiceArray"
+        android:entryValues="@array/streamServiceValues" />
+</PreferenceScreen>
