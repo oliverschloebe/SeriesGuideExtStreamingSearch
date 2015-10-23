@@ -22,11 +22,11 @@ This SeriesGuide extension helps you find streaming offers of your favourite sho
 2. Install this app
 3. Go to a show in the SeriesGuide app
 4. Scroll down, choose "Manage extensions"
-5. Click "Add extension"SeriesGuideWerStreamEs
+5. Click "Add extension"
 6. Choose "Streaming search"
 7. In the settings choose the service to search on
 8. On any show click on "Streaming search" to check where your favourite show is streaming
 
 ## Bugs/Suggestions
 
-If you find a bug, would like to see a feature implemented, or would like to contribute a feature to the project please use the [Issue Tracker](https://github.com/AlphawolfWMP/SeriesGuideWerStreamEs/issues) on the GitHub project page.
+If you find a bug, would like to see a feature implemented, or would like to contribute a feature to the project please use the [Issue Tracker](https://github.com/AlphawolfWMP/SeriesGuideExtStreamingSearch/issues) on the GitHub project page.
