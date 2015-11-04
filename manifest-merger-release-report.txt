@@ -23,7 +23,7 @@ MERGED from com.android.support:support-v4:23.1.0:22:5
 		ADDED from AndroidManifest.xml:7:9
 	android:theme
 		ADDED from AndroidManifest.xml:9:9
-service#de.schloebe.seriesguide.streamingfinder.app.StreamingFinderExtension
+service#de.schloebe.seriesguide.streamingfinder.StreamingFinderExtension
 ADDED from AndroidManifest.xml:10:9
 	android:label
 		ADDED from AndroidManifest.xml:13:13
@@ -43,7 +43,7 @@ action#com.battlelancer.seriesguide.api.SeriesGuideExtension
 ADDED from AndroidManifest.xml:17:17
 	android:name
 		ADDED from AndroidManifest.xml:17:25
-activity#de.schloebe.seriesguide.streamingfinder.app.MainActivity
+activity#de.schloebe.seriesguide.streamingfinder.MainActivity
 ADDED from AndroidManifest.xml:21:9
 	android:label
 		ADDED from AndroidManifest.xml:23:13
@@ -59,7 +59,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:27:17
 	android:name
 		ADDED from AndroidManifest.xml:27:27
-activity#de.schloebe.seriesguide.streamingfinder.app.SettingsActivity
+activity#de.schloebe.seriesguide.streamingfinder.SettingsActivity
 ADDED from AndroidManifest.xml:31:9
 	android:label
 		ADDED from AndroidManifest.xml:32:13

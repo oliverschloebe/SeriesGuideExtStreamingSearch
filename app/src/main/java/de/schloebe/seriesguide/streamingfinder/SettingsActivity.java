@@ -1,4 +1,4 @@
-package de.schloebe.seriesguide.streamingfinder.app;
+package de.schloebe.seriesguide.streamingfinder;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
