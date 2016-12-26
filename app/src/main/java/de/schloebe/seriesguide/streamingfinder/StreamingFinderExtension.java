@@ -1,13 +1,14 @@
 package de.schloebe.seriesguide.streamingfinder;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.preference.PreferenceManager;
+import android.widget.Toast;
 
 import com.battlelancer.seriesguide.api.Action;
 import com.battlelancer.seriesguide.api.Episode;
-import com.battlelancer.seriesguide.api.Movie;
 import com.battlelancer.seriesguide.api.SeriesGuideExtension;
 
 public class StreamingFinderExtension extends SeriesGuideExtension {
@@ -18,15 +19,6 @@ public class StreamingFinderExtension extends SeriesGuideExtension {
 
     @Override
     protected void onRequest(int episodeIdentifier, Episode episode) {
-        publishGoogleAction(episodeIdentifier, episode.getShowTitle());
-    }
-
-    @Override
-    protected void onRequest(int movieIdentifier, Movie movie) {
-        publishGoogleAction(movieIdentifier, movie.getTitle());
-    }
-
-    private void publishGoogleAction(int identifier, String searchTerm) {
         SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         String serviceKey = SP.getString("streamingService", "justwatchus");
 
@@ -34,13 +26,14 @@ public class StreamingFinderExtension extends SeriesGuideExtension {
                 getResources().getIdentifier(
                         "searchurl_" + serviceKey,
                         "string",
-                        "de.schloebe.seriesguide.streamingfinder"
+                        "de.schloebe.seriesguide.streamingfinder.app"
                 )
         );
 
-        publishAction(new Action.Builder(getString(R.string.app_name), identifier)
+        publishAction(new Action.Builder(getString(R.string.app_name), episodeIdentifier)
                 .viewIntent(new Intent(Intent.ACTION_VIEW)
-                        .setData(Uri.parse(baseUrl + searchTerm)))
+                        .setData(Uri.parse(baseUrl + episode.getShowTitle())))
                 .build());
     }
+
 }
