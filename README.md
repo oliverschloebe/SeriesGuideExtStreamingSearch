@@ -1,8 +1,8 @@
-# SeriesGuide Extension: Streaming Search
+# SeriesGuide Extension: VOD Search
 
 **Note: The app SeriesGuide (https://play.google.com/store/apps/details?id=com.battlelancer.seriesguide) by Uwe Trottmann is required to use this app.**
 
-This SeriesGuide extension helps you find streaming offers of your favourite show. The following services can be selected to search on:
+This SeriesGuide extension helps you find legal streaming offers of your favourite show. The following services can be selected to search on:
 
 - Justwatch.com (AU)
 - Justwatch.com (BR)
