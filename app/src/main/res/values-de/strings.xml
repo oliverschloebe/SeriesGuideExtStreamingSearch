@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Streaming-Suche</string>
-    <string name="title_activity_main">SeriesGuide Extension: Streaming-Suche</string>
+    <string name="app_name">VOD-Suche</string>
+    <string name="title_activity_main">SeriesGuide Extension: VOD-Suche</string>
     <string name="action_settings">Einstellungen</string>
-    <string name="setting_select_service">Streaming-Suchmaschine wählen</string>
-    <string name="setting_select_service_title">Streaming-Suchmaschine</string>
+    <string name="setting_select_service">VOD-Suchmaschine wählen</string>
+    <string name="setting_select_service_title">VOD-Suchmaschine</string>
 
     <string name="searchurl_werstreamtes">https://www.werstreamt.es/filme-serien/?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchau">https://www.justwatch.com/au/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>

@@ -1,5 +1,5 @@
-<resources>
-    <string-array name="streamServiceArray">
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="streamServiceArray" tools:ignore="InconsistentArrays">
         <item>Canistream.it (US)</item>
         <item>Justwatch.com (US)</item>
         <item>Justwatch.com (DE)</item>
@@ -13,7 +13,7 @@
         <item>Streamcatcher.de (DE)</item>
     </string-array>
 
-    <string-array name="streamServiceValues">
+    <string-array name="streamServiceValues" tools:ignore="InconsistentArrays">
         <item>canistreamit</item>
         <item>justwatchus</item>
         <item>justwatchde</item>
