@@ -34,6 +34,7 @@ local.properties
 .gradle/
 build/
 out/
+app/release/
 
 # Local configuration file
 gradle.properties
