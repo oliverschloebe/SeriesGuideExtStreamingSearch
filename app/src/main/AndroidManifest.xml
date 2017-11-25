@@ -13,6 +13,8 @@
             android:description="@string/app_name"
             android:label="@string/app_name"
             tools:ignore="ExportedReceiver">
+            <meta-data android:name="settingsActivity"
+                android:value=".SettingsActivity" />
             <intent-filter>
                 <action android:name="com.battlelancer.seriesguide.api.SeriesGuideExtension" />
             </intent-filter>
@@ -20,10 +22,7 @@
         <service
             android:name="de.schloebe.seriesguide.streamingfinder.StreamingFinderExtensionService"
             android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE">
-            <meta-data android:name="settingsActivity"
-                android:value=".SettingsActivity" />
-        </service>
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <!-- Service component for backwards compatibility with API v1 -->
         <!-- As the extension targets SDK 26+, disable it on O+ to avoid crash due to background restrictions. -->
