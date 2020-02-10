@@ -13,10 +13,13 @@
     <string name="searchurl_justwatchde">https://www.justwatch.com/de/Suche?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatches">https://www.justwatch.com/es/buscar?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchfi">https://www.justwatch.com/fi/buscar?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
+    <string name="searchurl_justwatchin">https://www.justwatch.com/in/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchit">https://www.justwatch.com/it/cerca?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchjp">https://www.justwatch.com/jp/検索?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
+    <string name="searchurl_justwatchnl">https://www.justwatch.com/nl/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchnz">https://www.justwatch.com/nz/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchru">https://www.justwatch.com/ru/поиск?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
+    <string name="searchurl_justwatchse">https://www.justwatch.com/se/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchuk">https://www.justwatch.com/uk/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_justwatchus">https://www.justwatch.com/us/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>
     <string name="searchurl_swyrltv">https://www.swyrl.tv/search?utm_source=app&amp;utm_medium=extension&amp;utm_campaign=de.schloebe.seriesguide.streamingfinder&amp;q=</string>

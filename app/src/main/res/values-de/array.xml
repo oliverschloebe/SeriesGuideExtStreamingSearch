@@ -1,27 +1,41 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="streamServiceArray" tools:ignore="InconsistentArrays">
-        <item>Canistream.it (US)</item>
-        <item>Justwatch.com (US)</item>
-        <item>Justwatch.com (DE)</item>
-        <item>Justwatch.com (CA)</item>
-        <item>Justwatch.com (UK)</item>
-        <item>Justwatch.com (BR)</item>
         <item>Justwatch.com (AU)</item>
+        <item>Justwatch.com (BR)</item>
+        <item>Justwatch.com (CA)</item>
+        <item>Justwatch.com (DE)</item>
+        <item>Justwatch.com (ES)</item>
+        <item>Justwatch.com (FI)</item>
+        <item>Justwatch.com (IN)</item>
+        <item>Justwatch.com (IT)</item>
+        <item>Justwatch.com (JP)</item>
+        <item>Justwatch.com (NL)</item>
         <item>Justwatch.com (NZ)</item>
+        <item>Justwatch.com (RU)</item>
+        <item>Justwatch.com (SE)</item>
+        <item>Justwatch.com (UK)</item>
+        <item>Justwatch.com (US)</item>
         <item>WerStreamt.es (DE)</item>
         <item>Swyrl.tv (DE)</item>
         <item>Streamcatcher.de (DE)</item>
     </string-array>
 
     <string-array name="streamServiceValues" tools:ignore="InconsistentArrays">
-        <item>canistreamit</item>
-        <item>justwatchus</item>
-        <item>justwatchde</item>
-        <item>justwatchca</item>
-        <item>justwatchuk</item>
-        <item>justwatchbr</item>
         <item>justwatchau</item>
+        <item>justwatchbr</item>
+        <item>justwatchca</item>
+        <item>justwatchde</item>
+        <item>justwatches</item>
+        <item>justwatchfi</item>
+        <item>justwatchin</item>
+        <item>justwatchit</item>
+        <item>justwatchjp</item>
+        <item>justwatchnl</item>
         <item>justwatchnz</item>
+        <item>justwatchru</item>
+        <item>justwatchse</item>
+        <item>justwatchuk</item>
+        <item>justwatchus</item>
         <item>werstreamtes</item>
         <item>swyrltv</item>
         <item>streamcatcherde</item>
