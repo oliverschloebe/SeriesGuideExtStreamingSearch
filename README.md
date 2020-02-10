@@ -14,6 +14,7 @@ This SeriesGuide extension helps you find legal streaming offers of your favouri
 - Justwatch.com (JP)
 - Justwatch.com (NZ)
 - Justwatch.com (RU)
+- Justwatch.com (SE)
 - Justwatch.com (UK)
 - Justwatch.com (US)
 - WerStreamt.es (DE)
